@@ -36,17 +36,6 @@ https://api.telegram.org/bot<YourBOTToken>/getUpdates
 
 ```
 
-```
-chat_id = <ваш идентификатор чата>
-
-@bot.message_handler(content_types=["text"])
-bot.send_message(chat_id, hasherate)
-
-if hasherate < ТУТ ваш Reporthashrate с которым сравниваете результат:
-	bot.send_message(chat_id, hasherate)
-
-```
-
 6. Ставим задачу на выполнение каждые 10 минут в cron или в планировщик задач если у вас windows.
 
 ```
