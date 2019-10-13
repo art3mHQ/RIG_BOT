@@ -47,7 +47,7 @@ if hasherate < ТУТ ваш Reporthashrate с которым сравнивае
 6. Ставим задачу на выполнение каждые 10 минут в cron или в планировщик задач если у вас windows.
 
 ```
-c:\....путь к папке с установленным phyton\python.exe c:\путь к файлу watch.py
+C:\....путь_к_папке_с_установленным_phyton\python.exe c:\путь_к_файлу_rig_watch.py
 
 ```
 ## Deployment
