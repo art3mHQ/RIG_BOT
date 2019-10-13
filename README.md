@@ -12,9 +12,8 @@
 1. Создаем своего бота к примеру по этой инструкции:
 https://vc.ru/22593-howto-bot-selectel
 
-2. Устанавливаем Python c офф. сайта https://www.python.org/downloads/
+2. Устанавливаем Python c офф. сайта https://www.python.org/downloads/  (код проверялся на python 3)
 
-Данный код проверялся на python 3
 
 ### Installing
 
