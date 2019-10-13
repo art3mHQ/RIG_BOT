@@ -31,7 +31,10 @@ URL = "https://api.ethermine.org/miner/тут ваш майнер/currentStats"
 TOKEN = 'тут token вашего bota'
 ```
 5. Получаем ID чата:
+```
 https://api.telegram.org/bot<YourBOTToken>/getUpdates
+
+```
 
 ```
 chat_id = <ваш идентификатор чата>
