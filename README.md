@@ -21,8 +21,7 @@ https://vc.ru/22593-howto-bot-selectel
 
 ```
 pip3 install requests
-pip3 install telebot
-pip3 install pytelegrambotapi
+pip3 install pyTelegramBotAPI
 ```
 4. Берем файл **rig_watch.py** (в файле указанны значения для примера). 
 Копируем в него след. текст в котором дописываем , **token вашего бота** , **id майнера** и **id чата** (см. соответствующие строки в скрипте):
