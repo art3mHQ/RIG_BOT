@@ -13,11 +13,6 @@ sincelast2 = data['workers']['<имя воркера №2>']['second_since_submi
 
 chat_id = <ваш идентификатор чата>
 
-@bot.message_handler(content_types=["text"])
-# the message_handler decorator of a TeleBot instance, i.e. filter that must return True to handle that message
-def repeat_all_messages(message):
-    bot.send_message(chat_id, hasherate)
-
 if sincelast1 + sincelast2 > 3800:
     bot.send_message(chat_id, "Your total hash is {} 🚀".format(hasherate))
     bot.send_message(chat_id, "🐌 second since last share! {}, {}!".format(sincelast1, sincelast2))
