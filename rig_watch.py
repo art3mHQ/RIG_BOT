@@ -1,5 +1,13 @@
 import requests
 import telebot
+from telebot import apihelper
+
+# If you want to use socket5 proxy you need install dependency pip install 
+# requests[socks] and make sure, that you have the latest version of 
+# gunicorn, PySocks, pyTelegramBotAPI, requests and urllib3
+apihelper.proxy = {'https':'socks5://userproxy:password@proxy_address:port'}
+
+
 URL = 'http://dwarfpool.com/eth/api?wallet= <ваш_номер_кошелька> &email=mail@example.com'
 TOKEN = '<ваш токен>'
 bot = telebot.TeleBot(TOKEN)
